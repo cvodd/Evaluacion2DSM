@@ -40,7 +40,7 @@ public class DashboardFragment extends Fragment {
 
     public void search(){
         String url = txt_url.getText().toString();
-        webview.loadUrl(url);
+        webview.loadUrl("https://"+url);
     }
     @Override
     public void onDestroyView() {

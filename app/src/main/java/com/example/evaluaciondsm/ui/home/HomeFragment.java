@@ -90,6 +90,7 @@ public class HomeFragment extends Fragment {
             register.put("price", price);
             database.insert("products", null, register);
             database.close();
+            clean();
             Toast.makeText(getActivity(), "Producto agregado", Toast.LENGTH_SHORT).show();
         }
         else {
@@ -130,6 +131,7 @@ public class HomeFragment extends Fragment {
             if (count == 1) {
                 database.close();
                 Toast.makeText(this.getActivity(), "Eliminado exitosamente", Toast.LENGTH_SHORT).show();
+                clean();
             } else {
                 Toast.makeText(this.getActivity(), "El producto no existe", Toast.LENGTH_SHORT).show();
             }
@@ -161,6 +163,11 @@ public class HomeFragment extends Fragment {
         } else {
             Toast.makeText(this.getActivity(), "No se ingreso un codigo", Toast.LENGTH_SHORT).show();
         }
+    }
+    public void clean(){
+        txt_code.setText("");
+        txt_description.setText("");
+        txt_price.setText("");
     }
 
 
