@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">EvaluacionDsm</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="register">Registrar producto</string>
+    <string name="edit">Editar Producto</string>
+    <string name="delete">Eliminar producto</string>
+    <string name="search_product">Buscar producto</string>
+    <string name="code">Código</string>
+    <string name="description">Descripción</string>
+    <string name="price">Precio</string>
+    <string name="fragment_linear_layout">LinearLayout</string>
+    <string name="login">Ingresar</string>
+    <string name="name">Nombre</string>
+    <string name="password">Contraseña</string>
+    <string name="fragment_table_layout">Table Layout</string>
+    <string name="search">Buscar</string>
+    <string name="url">Ingrese URL</string>
+</resources>
